@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1024, 768)
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1366, 623)
 
 WebUI.getViewportHeight()
 
